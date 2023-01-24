@@ -1,5 +1,4 @@
-/* font-family: 'EB Garamond', serif;
-font-family: 'Poppins', sans-serif; */
+
 /* import form google font */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap");
 /* common css */
@@ -17,7 +16,7 @@ font-family: 'Poppins', sans-serif; */
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-/* common css */
+/* common css end*/
 
 /* nav part start */
 .nav-link {
@@ -50,7 +49,6 @@ font-family: 'Poppins', sans-serif; */
   color: #fff;
   font-family: "EB Garamond", serif;
   font-size: 72px;
-  line-height: 85px;
 }
 .ban-text p {
   color: #e7e7e7;
@@ -188,3 +186,51 @@ footer button{
     left: 139px;
 }
 /* footer part end */
+
+/* Mobile Devices end*/
+/* tablet Device start */
+@media screen and (max-width: 576px){
+  /* nav bar part */
+
+  /* banner part */
+  .ban-text h1 {
+    font-size: 28px;
+}
+.ban-text p {
+  font-size: 12px;
+}
+/* legal part */
+.com-header {
+  font-size: 30px;
+}
+.card-paragaph {
+  font-size: 13px;
+}
+/* client part */
+.com-paragaph {
+  font-size: 14px;
+}
+/* FAQ part */
+.com-header {
+  font-size: 28px;
+}
+.com-paragaph {
+  font-size: 13px;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+  /* banner part */
+  .ban-text h1 {
+    font-size: 48px;
+}
+  .ban-text p {
+    font-size: 17px;
+}
+/*  */
+.carousel-caption {
+  top: 8%;
+}
+}
+
+
