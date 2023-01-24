@@ -106,13 +106,62 @@ input:focus {
   -o-transition: all linear 0.3s;
 }
 .card-body:hover {
-  background: linear-gradient(rgba(231, 231, 231, 1)
-  );
-  border: 1px solid rgba(231, 231, 231, 1)
+  background: linear-gradient(rgba(231, 231, 231, 1));
+  border: 1px solid rgba(231, 231, 231, 1);
+}
+.accordion-item h2{
+    color: #414040;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+}
+/* FAQ part start */
+.accordion-button:not(.collapsed) {
+    color: #414040;
+    background-color: #F3F3F3;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}
+.accordion-body{
+    background-color: #F3F3F3;
 }
 
+/* FAQ part start */
+
 /* footer part start */
-footer{
-    background-color: #111111;
+footer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  background-color: #111111;
+}
+.footer-column2 ul{
+      list-style-type: none;
+      padding-left: 0;
+}
+.footer-column2 ul li{
+    color: #CFCFCF;
+    font-family: "Poppins", sans-serif;
+}
+.footer-header {
+  color: #FFFFFF;
+  font-family: "EB Garamond", serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+.footer-text {
+  color: #CFCFCF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer form{
+    position: relative;
+}
+footer button{
+    position: absolute;
+    left: 139px;
 }
 /* footer part end */
